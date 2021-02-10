@@ -241,6 +241,6 @@ form button:hover{
         height:25px;
     }
     .logo h2{
-        float:left;
+        float:none;
     }
 }
