@@ -223,4 +223,8 @@ form button:hover{
         font-size: 18px;
         margin-top: 10px;
     }
+    .caption h2{
+        text-align: center;
+        margin-top:15px;
+    }
 }
