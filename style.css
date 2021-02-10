@@ -197,7 +197,7 @@ form button:hover{
         width:50%;
     }
     header ul li{
-        margin-right: 10px;
+        margin-right: 7px;
     }
     form input,form textarea{
         width:70%;
@@ -226,5 +226,8 @@ form button:hover{
     .caption h2{
         text-align: center;
         margin-top:15px;
+    }
+    .logo img{
+        height:35px;
     }
 }
