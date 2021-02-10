@@ -230,17 +230,11 @@ form button:hover{
         text-align: center;
         margin-top:15px;
     }
-    .logo {
-        width:50%;
-    }
     .menu{
         width:50%;
     }
     .logo img{
         margin-top: 8px;
         height:25px;
-    }
-    .logo h2{
-        float:none;
     }
 }
