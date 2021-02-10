@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
+    <title>SPAN</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7e6be360a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+            <img src="images/Icon.png"><h2>SPAN</h2></div><!--logo-->
+            <div class="menu">
+            <ul>
+                <li><a href="#start">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#form">Torne-se Voluntário</a></li>
+            </ul>
+            </div><!--Menu-->
+        </div><!--center-->
+    </header>
+    <div id="start" class="banner">
+        <img src="images/banner.png">
+    </div><!--banner-->
+    <div class="caption">
+        <h2>Conheça nossa ONG e porque nos lutamos</h2>
+        <div class="arrow">
+            <a href="#about"> <i class="fas fa-arrow-circle-down"></i></a>
+             </div><!--arrow-->
+    </div><!--caption-->
+    <main>
+        <div id="about">
+            <h2>Sobre</h2>
+            <p>A SPAN (Serviços Prestados aos Animais e a Natureza) foi criada para atender uma demanda que são os animais abandonados nas ruas e a falta de incentivos a reciclagem então entramos nisso para ser referência e fazer do mundo um lugar melhor </p>
+            <img src="images/Banner.png">
+            <h3>Nossa Missão: </h3>
+            <p>
+                Nossa missão é dedicar-se na melhoria do meio ambiente, através de coletas seletivas e vendas de produtos recicláveis. Ajudando também o animais de rua, para assim trazer um conforto para eles através de adoções. 
+            </p>
+            <h3>Nossa Visão: </h3>
+            <p>Nossa visão é diminuir o máximo de animais moradores de rua, dando um lar para eles. Promover também uma melhoria ao meio ambiente para proporcionar o bem estar dos animais e pessoas. </p>
+            <h3>Nossos Valores: </h3>
+            <p>Nossos valores são a utilização de objetos recicláveis na nossa instituição, prezando o bem estar no ambiente de trabalho e adotarmos os animais para incentivar com que os outros façam o mesmo e salvem mais animais que necessitam. </p>
+        </div><!--about-->
+    </main>
+    <div id="form" class="form">
+        <form name="contact" method="POST" data-netlify="true">
+            <h1>Torne-se Voluntário</h1>
+            <p>
+              <label>Seu Nome* <input type="text" name="name" required/></label>   
+            </p>
+            <p>
+              <label>Seu Email* <input type="email" name="email" required /></label>
+            </p>
+            <p>
+              <label>Deixe Aqui sua Mensagem* <textarea required name="message"></textarea></label>
+            </p>
+            <p id="warning">Todos os campos com * são obrigatórios, Deixe uma mensagem contando um pouco sobre você e porque deseja ser voluntário retornaremos o mais breve possivel</p>
+            <p>
+              <button type="submit">Enviar</button>
+            </p>
+          </form>
+        </div>
+</body>
+    
+</html>
