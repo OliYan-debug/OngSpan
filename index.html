@@ -52,7 +52,7 @@
         </div><!--about-->
     </main>
     <div id="form" class="form">
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
             <h1>Torne-se Voluntário</h1>
             <p>
               <label>Seu Nome* <input type="text" name="name" required/></label>   
@@ -63,6 +63,7 @@
             <p>
               <label>Deixe Aqui sua Mensagem* <textarea required name="message"></textarea></label>
             </p>
+            <div data-netlify-recaptcha="true"></div>
             <p id="warning">Todos os campos com * são obrigatórios, Deixe uma mensagem contando um pouco sobre você e porque deseja ser voluntário retornaremos o mais breve possivel</p>
             <p>
               <button type="submit">Enviar</button>
