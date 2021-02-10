@@ -178,7 +178,11 @@ form button:hover{
     color:black;
     background-color:#d3d3d3 ;
 }
-
+.recaptcha{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 @media screen and (max-width:800px){
     .banner img{
         height:350px
