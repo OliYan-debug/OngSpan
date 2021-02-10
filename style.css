@@ -213,16 +213,13 @@ form button:hover{
         width:150px;
         height: 33px;
     }
-    header h2{
-        margin-top: 5px;
-    }
     .menu{
         margin-top:12px
     }
     #about p{
         text-align: justify;
     }
-    header h2{
+    .caption h2{
         font-size: 18px;
         margin-top: 10px;
     }
@@ -238,7 +235,8 @@ form button:hover{
         height:35px;
     }
     .logo h2{
-        font-size: 18px;
+        margin-top:5px;
+        font-size: 22px;
         font-weight: bolder;
     }
     header ul li a{
