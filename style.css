@@ -94,6 +94,7 @@ main{
     width:80%;
 }
 #about h2{
+    color:white;
     text-align: center;
     font-size: 30px;
 }
@@ -106,6 +107,7 @@ main{
     margin-bottom: 10px;
 }
 #about h3{
+    color:white;
     padding: 6px;
 }
 #about img{
@@ -119,6 +121,7 @@ main{
     margin-right: auto;
 }
 form h1{
+    color:white;
     width:30%;
     display: block;
     margin-left: auto;
@@ -226,6 +229,12 @@ form button:hover{
     .caption h2{
         text-align: center;
         margin-top:15px;
+    }
+    .logo {
+        width:50%;
+    }
+    .menu{
+        width:50%;
     }
     .logo img{
         margin-top: 8px;
