@@ -228,6 +228,7 @@ form button:hover{
         margin-top:15px;
     }
     .logo img{
-        height:35px;
+        margin-top: 5px;
+        height:25px;
     }
 }
