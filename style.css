@@ -44,6 +44,9 @@ header img{
 .logo{
     float: left;
 }
+.logo h2{
+    color:white;
+}
 header ul li a{
     text-decoration: none;
     color:white;
