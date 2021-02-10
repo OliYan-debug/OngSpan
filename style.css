@@ -237,4 +237,8 @@ form button:hover{
         margin-top: 8px;
         height:25px;
     }
+    header ul li a{
+        font-weight: normal;
+        font-size: 10px;
+    }
 }
