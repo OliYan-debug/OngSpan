@@ -46,6 +46,7 @@ header img{
 }
 .logo h2{
     color:white;
+    font-weight: bold;
 }
 header ul li a{
     text-decoration: none;
