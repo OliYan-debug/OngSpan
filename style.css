@@ -181,8 +181,9 @@ form button:hover{
         height:350px
     }
     main{
-        margin-top:300px;
+        margin-top:340px;
     }
+    #arrow i{margin-top:50px }
     #about{
         width:90%;
     }
