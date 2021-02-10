@@ -235,7 +235,11 @@ form button:hover{
     }
     .logo img{
         margin-top: 8px;
-        height:25px;
+        height:35px;
+    }
+    .logo h2{
+        font-size: 18px;
+        font-weight: bolder;
     }
     header ul li a{
         font-weight: normal;
